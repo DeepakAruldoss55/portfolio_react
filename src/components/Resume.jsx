@@ -26,7 +26,6 @@ const Resume = () => {
               </p>
               <ul>
                 <li>Chennai, TamilNadu, India.</li>
-                <li>(+91) 6383331367</li>
                 <li>adeepakplm55@gmail.com</li>
               </ul>
             </div>
