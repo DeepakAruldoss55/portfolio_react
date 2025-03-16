@@ -117,9 +117,9 @@ const Skills = () => {
                         </div>
 
                         <div className="progress">
-                            <span className="skill"><span>Zend</span> <i className="val">80%</i></span>
+                            <span className="skill"><span>Zend</span> <i className="val">85%</i></span>
                             <div className="progress-bar-wrap">
-                                <div className="progress-bar zend-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress-bar zend-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
 
@@ -183,9 +183,9 @@ const Skills = () => {
                         </div>
 
                         <div className="progress">
-                            <span className="skill"><span>Embedded JavaScript templating</span> <i className="val">60%</i></span>
+                            <span className="skill"><span>Embedded JavaScript templating</span> <i className="val">85%</i></span>
                             <div className="progress-bar-wrap">
-                                <div className="progress-bar ejs-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress-bar ejs-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
 
@@ -200,9 +200,9 @@ const Skills = () => {
                     <div className="col-lg-6 skill-separate-section">
                         <div className="skill-header">Databases</div>
                         <div className="progress">
-                            <span className="skill"><span>MySQL</span> <i className="val">80%</i></span>
+                            <span className="skill"><span>MySQL</span> <i className="val">90%</i></span>
                             <div className="progress-bar-wrap">
-                                <div className="progress-bar mysql-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress-bar mysql-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
 
@@ -217,16 +217,16 @@ const Skills = () => {
                     <div className="col-lg-6 skill-separate-section">
                         <div className="skill-header">Other Technologies</div>
                         <div className="progress">
-                            <span className="skill"><span>GIT</span> <i className="val">60%</i></span>
+                            <span className="skill"><span>GIT</span> <i className="val">70%</i></span>
                             <div className="progress-bar-wrap">
-                                <div className="progress-bar git-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress-bar git-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
 
                         <div className="progress">
-                            <span className="skill"><span>AWS(EC2)</span> <i className="val">60%</i></span>
+                            <span className="skill"><span>AWS(EC2)</span> <i className="val">70%</i></span>
                             <div className="progress-bar-wrap">
-                                <div className="progress-bar aws-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress-bar aws-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                     </div>
