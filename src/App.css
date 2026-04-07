@@ -14,10 +14,16 @@ section {
   padding: var(--section-padding);
   position: relative;
   z-index: 1;
+  scroll-margin-top: 100px;
 }
 
 /* Typography Overhaul */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Outfit', sans-serif;
   font-weight: 800;
   letter-spacing: -0.04em;
@@ -100,7 +106,9 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding-top: var(--nav-height);
+  padding-top: 120px;
+  position: relative;
+  overflow: hidden;
 }
 
 .hero h2 {
@@ -165,7 +173,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .glass-v2 p {
-  color: var(--text-main); /* High Contrast White Body */
+  color: var(--text-main);
+  /* High Contrast White Body */
   line-height: 1.8;
   font-size: 1.1rem;
 }
@@ -204,7 +213,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 991px) {
-  .hero h2 { font-size: 3.5rem; }
-  .section-title h2 { font-size: 2.5rem; }
-  .header { padding: 0 24px; }
+  .hero {
+    padding-top: 120px;
+  }
+
+  .hero h2 {
+    font-size: 3.5rem;
+  }
+
+  .section-title h2 {
+    font-size: 2.5rem;
+  }
+
+  .header {
+    padding: 0 24px;
+  }
 }
