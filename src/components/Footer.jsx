@@ -29,9 +29,9 @@ const Footer = () => {
                                     { name: "Professional Journey", path: "/#resume" },
                                     { name: "Projects Showcase", path: "/projects" }
                                 ].map((link, i) => (
-                                    <a key={i} href={link.path} className="text-white-50 text-decoration-none hover-primary transition-smooth">
+                                    <Link key={i} to={link.path} className="text-white-50 text-decoration-none hover-primary transition-smooth">
                                         {link.name}
-                                    </a>
+                                    </Link>
                                 ))}
                             </div>
                         </div>
